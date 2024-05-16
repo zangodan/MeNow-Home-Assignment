@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Brush Script MT';
+    font-size: 3rem;
+    color: #7AB2B2;
+    margin: 20px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.search > form > #keyword{
+    background-color: #EEF7FF;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.search > form > #textbox{
+    font-family: "Arvo", cursive;
+}
+
+.search > form > #submit{
+    background-color: #7AB2B2;
+    border: 0.5px solid black;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "Arvo", cursive;
+}
+
+.images{
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.images > img{
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 220px;
+}
+
