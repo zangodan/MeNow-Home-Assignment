@@ -3,13 +3,12 @@ h1{
     font-size: 3rem;
     color: #7AB2B2;
     margin: 20px;
+    margin-bottom: 50px;
 }
 
 .body{
     display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: center;
 }
 
 .search > form > #keyword{
@@ -24,6 +23,14 @@ h1{
 
 .search > form > #submit{
     background-color: #7AB2B2;
+    border: 0.5px solid black;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "Arvo", cursive;
+}
+
+.shuffle > button{
+    background-color: #4D869C;
     border: 0.5px solid black;
     margin-left: 5px;
     border-radius: 5px;

@@ -95,6 +95,7 @@ const Landing = () =>{
             </div>
         )
     }
+    
 
     return(
         <>
@@ -114,6 +115,7 @@ const Landing = () =>{
             </div>
             
             {displayImages()}
+            
             {/* <displayImages></displayImages> */}
             
             {/* <div className='images'>
